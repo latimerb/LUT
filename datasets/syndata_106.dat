@@ -1,0 +1,7 @@
+6
+MPGa MPGb MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+MPGe MPGa MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+HGa HGb MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+HGe HGa MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+MPGe HGa MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 -80.0 
+MPGe PUD MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 -80.0 
