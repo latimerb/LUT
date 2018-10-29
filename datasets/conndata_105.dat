@@ -1,7 +1,7 @@
 9
 stim afferent 0.100000 1.000000 1.000000
-afferent interneuron 0.100000 1.000000 1.000000
-afferent interneuron1 0.100000 1.000000 1.000000
+afferent MPGinterneuron 0.100000 1.000000 1.000000
+afferent HGinterneuron 0.100000 1.000000 1.000000
 MPGinterneuron MPGe 0.100000 1.000000 1.000000
 HGinterneuron HGe 0.100000 1.000000 1.000000
 HGinterneuron PUDe 0.100000 1.000000 1.000000
