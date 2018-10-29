@@ -2,7 +2,6 @@
 
 #SBATCH -p Lewis,hpc5
 #SBATCH -N 2
-#SBATCH -A rc
 #SBATCH -n 10
 #SBATCH --qos=normal
 #SBATCH --job-name=LUT
