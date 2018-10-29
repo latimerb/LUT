@@ -129,7 +129,9 @@ proc makeConnections () {local precellType, postcellType, precellStart, precellE
 		// Properties of the connections between the presynaptic cell type and postsynaptic cell type
 		synWeight = cellType[$1].wgtConns.x[$2]
 		numSyns = cellType[$1].numSyns.x[$2]
-		numConns = cellType[$1].numConns.x[$2]		
+		numConns = cellType[$1].numConns.x[$2]	
+
+		
 
 		numpost = $5	// Number of postsynaptic cells owned by this processor
 		
@@ -235,6 +237,8 @@ proc makeConnections () {local precellType, postcellType, precellStart, precellE
 				{quit()}
 			}
 			
+			
+			
 			sprint(memstr, "Defined %s to %s conns", $s3, $s4)	// Update memory usage after
 			zzz = mallinfo(zzz, memstr)							//  connecting each cell type
 
@@ -245,6 +249,7 @@ proc makeConnections () {local precellType, postcellType, precellStart, precellE
 			for r=numpost+2, numpost+2+int(conns2make.x[0]/1)-1 {	// For each potential connection suggested by the compiled mechanism
 				if (numpost>1) {
 					postgid = conns2make.x[r+connlength]
+					
 				} else {
 					postgid = postcellgids.x[0]
 				}
@@ -258,6 +263,9 @@ proc makeConnections () {local precellType, postcellType, precellStart, precellE
 																		
 					numSynTypes = cell.pre_list.o(precellType).count()	// Get total number of potential synapse types for this combination
 																		//  of presynaptic cell type and postsynaptic cell type.
+																		
+					print "numSynTypes: ", numSynTypes												
+																		
 					if (numSynTypes > 0) {								// If at least one synapse type is defined, then proceed
 					
 						ransynlist.object(cell.randi).r.discunif(0,numSynTypes-1)	// Create a uniform random INTEGER distribution that will
@@ -322,6 +330,9 @@ proc makeConnections () {local precellType, postcellType, precellStart, precellE
 								
 								nc_append(conns2make.x[r], postgid, precellType, randSynNumber, thiswgt + (conns2make.x[r]+1)*1000, conDelay)
 							} else {
+								
+								
+								
 								nc_append(conns2make.x[r], postgid, precellType, randSynNumber, synWeight + (conns2make.x[r]+1)*1000, conDelay)
 							}
 						}

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH -p Lewis,hpc5
-#SBATCH -N 2
-#SBATCH -n 10
+#SBATCH -N 1
+#SBATCH -n 5
 #SBATCH --qos=normal
 #SBATCH --job-name=LUT
 #SBATCH --output=LUT%j.out
