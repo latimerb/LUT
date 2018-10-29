@@ -7,6 +7,4 @@ HGinterneuron HGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -
 HGinterneuron PUDe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
 PUDe MPGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
 MPGe afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0    
-HGe afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
-
-
+HGe afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0
