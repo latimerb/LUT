@@ -9,8 +9,8 @@ Bezaire et al. (2016) Interneuronal mechanisms of hippocampal theta oscillations
 
 Defining a model requires defining properties of single cells, synapses, connectivity, and stimulation. These are done in the following files:
 
-## 1) ./datasets/cellnumbers_XX.dat
-
+1) ./datasets/cellnumbers_XX.dat
+################################
 ## 2) ./datasets/conndata_XX.dat
 
 Column 1 - PREsynaptic cell "friendly name" - the name in column on defined in cellnumbers_XX.dat.
