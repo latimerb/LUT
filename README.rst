@@ -11,7 +11,8 @@ Defining a model requires defining properties of single cells, synapses, connect
 
 1) ./datasets/cellnumbers_XX.dat
 ################################
-## 2) ./datasets/conndata_XX.dat
+2) ./datasets/conndata_XX.dat
+################################
 
 Column 1 - PREsynaptic cell "friendly name" - the name in column on defined in cellnumbers_XX.dat.
 Column 2 - POSTsynaptic cell "friendly name"
@@ -19,7 +20,8 @@ Column 3 - weight
 Column 4 - number of convergent connections. Every cell of the postsynaptic cell type receives this many connections from the surrounding cells of the presynaptic cell type.
 Column 5 - number of synapses per connection. 
 
-## 3) ./datasets/syndata_XX.dat
+3) ./datasets/syndata_XX.dat
+################################
 
 Column 1 - POSTsynaptic cell "friendly name"
 Column 2 - PREsynaptic cell "friendly name"
@@ -30,6 +32,6 @@ Column 6 - rise time of the synapse (ms)
 Column 7 - decay time of the synapse (ms)
 Column 8 - reversal potential of the synapse (mV)
 
-## 4) ./datasets/phasic_XX.dat
-
+4) ./datasets/phasic_XX.dat
+################################
 
