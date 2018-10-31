@@ -1,10 +1,10 @@
 9
-stim afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0   
-afferent MPGinterneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0   
-afferent HGinterneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0   
-MPGinterneuron MPGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0    
-HGinterneuron HGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
-HGinterneuron PUDe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
-PUDe MPGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
-MPGe afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0    
-HGe afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0
+afferent stim MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0   
+MPGinterneuron afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0   
+HGinterneuron afferent MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0   
+MPGe MPGinterneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0    
+HGe HGinterneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
+PUDe HGinterneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
+MPGe PUDe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0    
+afferent MPGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 0.0    
+afferent HGe MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.1 5.0 -80.0

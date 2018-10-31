@@ -1,0 +1,54 @@
+Starting model at Wed Oct 31 17:36:35 CET 2018
+numprocs=5
+NEURON -- VERSION 7.5 master (6b4c19f) 2017-09-25
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2016
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ BG_ALL.mod cadyn.mod capool.mod cas.mod cat.mod ch_CavL.mod ch_CavN.mod ch_HCN.mod ch_HCNolm.mod ch_HCNp.mod ch_KCaS.mod ch_Kdrfast.mod ch_Kdrfastngf.mod ch_Kdrp.mod ch_Kdrslow.mod ch_KvAdistp.mod ch_KvA.mod ch_KvAngf.mod ch_KvAolm.mod ch_KvAproxp.mod ch_KvCaB.mod ch_KvGroup.mod ch_KvM.mod ch_leak.mod ch_Navaxonp.mod ch_Navbis.mod ch_Navcck.mod ch_Nav.mod ch_Navngf.mod ch_Navp.mod ExpGABAab.mod fastconn.mod function_TMonitor.mod h.mod iconc_Ca.mod im.mod ka.mod kaprox.mod kca.mod kdrca1.mod leak.mod MyExp2Sid.mod MyExp2Sidnw.mod mynetstim.mod na3.mod nap.mod netstimh.mod netstimNEWh.mod netstimNEWp.mod netstimNEWpud.mod netstimp.mod netstimpud.mod positionfcns.mod repeatconn.mod sahp.mod sgate.mod SIN.mod xtra.mod
+sh: git: command not found
+sh: git: command not found
+sh: git: command not found
+
+TIME HOST 0: 1.35 seconds (set up)
+************
+
+TIME HOST 0: 0.0700002 seconds (created cells)
+************
+Host 2  connected cells.
+Host 1  connected cells.
+Host 3  connected cells.
+Host 4  connected cells.
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+Host 0  connected cells.
+
+TIME HOST 0: 1.98 seconds (connected cells)
+************
+100 ms interval at t=100 ms was 3.17 s
+100 ms interval at t=200 ms was 3.16 s
+100 ms interval at t=300 ms was 3.16 s
+
+TIME HOST 0: 9.48 seconds (ran simulation)
+************
+load_balance = 1.000
+exchange_time = 0.02 ms
+****
+TIME SUMMARY for host 0
+set up in 1.35 seconds
+created cells in 0.0700002 seconds
+connected cells in 1.98 seconds
+ran simulation in 9.48 seconds
+wrote results in 39.13 seconds
+TOTAL TIME   = 52.49 seconds
+ALLOTTED TIME = 14400 seconds
+************
+This run is called: lutrun_02
+************

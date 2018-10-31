@@ -264,7 +264,7 @@ proc makeConnections () {local precellType, postcellType, precellStart, precellE
 					numSynTypes = cell.pre_list.o(precellType).count()	// Get total number of potential synapse types for this combination
 																		//  of presynaptic cell type and postsynaptic cell type.
 																		
-					print "numSynTypes: ", numSynTypes												
+																
 																		
 					if (numSynTypes > 0) {								// If at least one synapse type is defined, then proceed
 					
